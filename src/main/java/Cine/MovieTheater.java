@@ -70,10 +70,10 @@ public class MovieTheater {
             return findSeat(person);
         }
         if(person.getMoney() < this.ticketPrice){
-            System.out.println(person.getName() + " is an asshole without money, $" + person.getMoney());
+            System.out.println(person.getName() + " is someone without money, $" + person.getMoney());
         }
         if(person.getAge() < this.movie.getMinimunAge()){
-            System.out.println(person.getName() + " is a fucking baby, " + person.getAge());
+            System.out.println(person.getName() + " is a baby, " + person.getAge());
         }
         return false;
     }
